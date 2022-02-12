@@ -9,16 +9,26 @@
 </head>
 <body>
     <div class="container">
+        <div class="slidercontainer">
+            <input type="range" min="200" max="1600" value="800" id="sizerange">
+            <p class="sizevalue"><span id="values"></span></p>
+            <input type="range" min="0" max="4" value="0" id="gridrange">
+            <p class="gridvalue"><span id="value"></span></p>
+            <p class="portalconcept"></p>
+            <p class="project"></p>
+        </div>
         <div class="portalcontainer">
             <div class="glowcontainer">
                 <div class="portalglow"></div>
             </div>
             <div class="portal"></div>
         </div>
-    </div>
-    <div class="slidercontainer">
-        <input type="range" min="0" max="4" value="0" id="gridrange" class="gridslider">
-        <p class="gridvalue">Value: <span id="value"></span></p>
+        <div class="slidercontainer">
+            <input type="range" id="colorrange" value="255" min="0" max="255">
+            <p class="lightvalue">Daylight </p> 
+            <p class="portalexplanation"></p>
+            <p class="changelightexplain"></p>       
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
