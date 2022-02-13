@@ -93,6 +93,8 @@ body {
                     inset 0px 4px 25px 0px #efab24ee,
                     inset 0px -4px 25px 0px #ed6e2aee;
         background: url("images/portalglow2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         filter: brightness(0.7);
     }
     50% {
@@ -101,6 +103,8 @@ body {
                     inset 0px 8px 25px -3px #efc90fee,
                     inset 0px -8px 25px -3px #e37152ee;
         background: url("images/portalglow2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         filter: brightness(0.85);
     }
     100% {
@@ -110,6 +114,8 @@ body {
                     inset 0px -12px 25px -6px #e42020db;
         filter: brightness(1);
         background: url("images/portalglow.jpg"), url("images/portalglow2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
